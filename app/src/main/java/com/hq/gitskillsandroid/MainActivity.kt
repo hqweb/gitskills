@@ -2,11 +2,15 @@ package com.hq.gitskillsandroid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+    }
+    fun xiufu(){
+        Log.v("11", "dev分支 bug修复")
     }
 }
